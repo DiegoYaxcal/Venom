@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venom - Simbionte alienígena</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #main-content {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Venom - Simbionte alienígena</h1>
+        <img src="Venom.webp" alt="Venom">
+    </header>
+    <div id="main-content">
+        <h2>¿Quién es Venom?</h2>
+        <p>Venom es un personaje ficticio, un simbionte alienígena que aparece en los cómics publicados por Marvel Comics. Fue creado por David Michelinie y Todd McFarlane y su primera aparición fue en <em>The Amazing Spider-Man</em> (1988).</p>
+        
+        <h2>Origen y características</h2>
+        <p>El simbionte Venom se originó en el planeta Klyntar y tiene la capacidad de unirse con un huésped humano, otorgándole poderes extraordinarios y una fuerza sobrehumana. Su huésped más conocido es Eddie Brock, un periodista que se convierte en uno de los antagonistas de Spider-Man.</p>
+        
+        <h2>Adaptaciones</h2>
+        <p>Venom ha aparecido en diversas adaptaciones de medios, incluyendo películas, series animadas y videojuegos. Una de las representaciones más populares es la película <em>Venom</em> (2018), protagonizada por Tom Hardy como Eddie Brock / Venom.</p>
+        
+        <h2>Otros simbiontes</h2>
+        <p>Además de Venom, existen otros simbiontes como Carnage, Toxin, Riot y Anti-Venom, cada uno con sus propias habilidades y características.</p>
+        
+        <h2>Venom es uno de mis personajes favoritos quiero actuar siendo el de grande 👽</h2>
+        <ul>
+
+            <Script>// Obtener referencias a los formularios
+                const cuestionarioForm = document.getElementById('cuestionario');
+                const personalizarForm = document.getElementById('personalizar');
+                const tiendaForm = document.getElementById('tienda');
+                
+                // Función para manejar el envío del formulario de cuestionario
+                cuestionarioForm.addEventListener('submit', (event) => {
+                    event.preventDefault();
+                    const nombre = document.getElementById('nombre').value;
+                    const poder = document.getElementById('poder').value;
+                
+                    // Mostrar un mensaje personalizado
+                    alert(`¡Hola, ${nombre}! Tu poder favorito es ${poder}. ¡Eres un verdadero Venom!`);
+                
+                    // Aquí puedes guardar los datos del usuario en localStorage o enviarlos a un servidor
+                });
+                
+                // Función para manejar el envío del formulario de personalización
+                personalizarForm.addEventListener('submit', (event) => {
+                    event.preventDefault();
+                    // Lógica para personalizar a Venom (actualizar una imagen, cambiar estilos, etc.)
+                    alert('¡Tu Venom personalizado se ha guardado!');
+                });
+                
+                // Función para manejar el envío del formulario de tienda
+                tiendaForm.addEventListener('submit', (event) => {
+                    event.preventDefault();
+                    // Lógica para agregar productos al carrito, mostrar un resumen de la compra, etc.
+                    alert('¡Producto agregado al carrito!');
+                });</Script>
+            
+    </div>
+</body>
+</html>
+
